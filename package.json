@@ -1,0 +1,44 @@
+{
+"name": "hun-museum",
+"version": "1.0.0",
+"description": "Virtual Hun Museum",
+"main": "electron/main.js",
+"author": "Jacob Yee",
+"license": "MIT",
+
+"scripts": {
+"start": "electron .",
+"dist": "electron-builder --win portable msi",
+"pack": "electron-builder --dir"
+},
+
+"devDependencies": {
+"electron": "^39.0.0",
+"electron-builder": "^26.0.12"
+},
+
+"build": {
+"appId": "com.hunmuseum.app",
+"productName": "Hun Museum",
+
+```
+"files": [
+  "electron/**/*",
+  "assets/**/*",
+  "css/**/*",
+  "exhibits/**/*",
+  "js/**/*",
+  "index.html",
+  "robots.txt",
+  "sitemap.xml"
+],
+
+"win": {
+  "target": [
+    "portable",
+    "msi"
+  ]}
+
+     }
+   }
+  }
