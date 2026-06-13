@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 
 <urlset
@@ -34,3 +35,41 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   </url>
 
 </urlset>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset
+xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://tropical-express.github.io/hun-exhibition/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://tropical-express.github.io/hun-exhibition/exhibits/origins.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://tropical-express.github.io/hun-exhibition/exhibits/attila.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://tropical-express.github.io/hun-exhibition/exhibits/warfare.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://tropical-express.github.io/hun-exhibition/exhibits/artifacts.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
+>>>>>>> 5ace7fb58ea273f016e9d005fff42602ae8a83ec
