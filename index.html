@@ -1,54 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hun Museum</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hun Museum</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<header>
-    <h1>Hun Museum</h1>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="exhibits/origins.html">Origins</a>
-        <a href="exhibits/attila.html">Attila</a>
-        <a href="exhibits/warfare.html">Warfare</a>
-    </nav>
+<header class="header">
+  <h1>Hun Museum</h1>
+  <p>Explore the history, culture, warfare, and legacy of the Huns.</p>
 </header>
 
 <section class="hero">
-    <img src="assets/images/hero.jpg" alt="Hun Museum Hero Image">
+  <img src="assets/images/hero.jpg" alt="Hun riders on the Eurasian steppe">
+
+  <div class="hero-overlay">
+    <h2>Virtual Hun Museum</h2>
+    <p>
+      Discover the story of the Huns through exhibits,
+      maps, reconstructions, and archaeological evidence.
+    </p>
+  </div>
 </section>
 
-<main>
-    <h2>Welcome</h2>
+<main class="grid">
 
+  <a class="card" href="exhibits/origins.html">
+    <img src="assets/images/migration-map.jpg" alt="Migration Map">
+    <h2>Origins</h2>
     <p>
-        Explore the history of the Huns, their migrations,
-        culture, warfare, and the legacy of Attila the Hun.
+      Explore theories surrounding the origins of the Huns
+      and their migrations across Eurasia.
     </p>
+  </a>
 
-    <div class="cards">
+  <a class="card" href="exhibits/attila.html">
+    <img src="assets/images/attila.jpg" alt="Attila the Hun">
+    <h2>Attila the Hun</h2>
+    <p>
+      Learn about the most famous ruler of the Huns
+      and his impact on history.
+    </p>
+  </a>
 
-        <a class="card" href="exhibits/origins.html">
-            <h3>Origins</h3>
-            <p>Learn where the Huns came from.</p>
-        </a>
+  <a class="card" href="exhibits/warfare.html">
+    <img src="assets/images/horse-archer.jpg" alt="Horse Archer">
+    <h2>Warfare</h2>
+    <p>
+      Discover Hun military tactics, horse archery,
+      and battlefield mobility.
+    </p>
+  </a>
 
-        <a class="card" href="exhibits/attila.html">
-            <h3>Attila</h3>
-            <p>The most famous Hun ruler.</p>
-        </a>
+  <a class="card" href="exhibits/artifacts.html">
+    <img src="assets/images/artifact.jpg" alt="Artifact">
+    <h2>Artifacts</h2>
+    <p>
+      Examine archaeological discoveries and surviving
+      objects linked to Hun culture.
+    </p>
+  </a>
 
-        <a class="card" href="exhibits/warfare.html">
-            <h3>Warfare</h3>
-            <p>Horse archers and military tactics.</p>
-        </a>
-
-    </div>
 </main>
+
+<section class="panel timeline-panel">
+
+  <h2>Timeline</h2>
+
+  <ul class="timeline">
+    <li><strong>370 CE</strong> – Huns appear in Europe</li>
+    <li><strong>434 CE</strong> – Attila becomes ruler</li>
+    <li><strong>451 CE</strong> – Battle of the Catalaunian Plains</li>
+    <li><strong>453 CE</strong> – Death of Attila</li>
+  </ul>
+
+</section>
+
+<footer>
+  <p>Hun Museum • Virtual Historical Exhibition</p>
+</footer>
 
 <script src="js/museum.js"></script>
 
