@@ -21,7 +21,7 @@
 "appId": "com.hunmuseum.app",
 "productName": "Hun Museum",
 
-```
+
 "files": [
   "electron/**/*",
   "assets/**/*",
@@ -37,8 +37,6 @@
   "target": [
     "portable",
     "msi"
-  ]}
-
-     }
-   }
-  }
+  ]
+}
+}
