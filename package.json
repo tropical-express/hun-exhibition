@@ -1,7 +1,7 @@
 {
-"name": "hun-museum",
+"name": "hun-exhibition",
 "version": "1.0.0",
-"description": "Virtual Hun Museum",
+"description": "Virtual Hun Exhibition",
 "main": "electron/main.js",
 "author": "Jacob Yee",
 "license": "MIT",
@@ -18,8 +18,8 @@
 },
 
 "build": {
-"appId": "com.hunmuseum.app",
-"productName": "Hun Museum",
+"appId": "com.hunexhibition.app",
+"productName": "Hun Exhibition",
 
 
 "files": [
